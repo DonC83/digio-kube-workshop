@@ -69,7 +69,7 @@ podTemplate(label: label,
                   --set image.repository=donc83/first-app \
                   --set image.tag=${VERSION}.${COMMIT} \
                   --set ingress.enabled=true \
-                  --set ingress.hosts[0]=first-app.don.do.citopro.com \
+                  --set ingress.hosts[0]=firstapp.don.do.citopro.com \
                   first-app
               """
             }
